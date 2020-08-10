@@ -1,0 +1,17 @@
+[package]
+name = "namespaces-rs"
+version = "0.1.0"
+authors = ["zhanglei <mrzhang.lei@outlook.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "A wrapper of linux namespaces."
+repository = "https://github.com/ZhangLei-cn/namespaces-rs"
+
+[dependencies]
+libc = "0.2"
+anyhow = "1.0"
+regex = "1"
+nix = "0.18.0"
+ipc-channel = "0.14.1"
+serde = "1"
+serde_json = "1"
